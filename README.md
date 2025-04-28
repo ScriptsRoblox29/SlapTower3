@@ -24,7 +24,6 @@ if not allowedPlaceIds[game.PlaceId] then
     })
     task.wait(1.5)
     LocalPlayer:Kick("Not's Kick
-    
     This game is not supported, Please join games called Slap tower troll or Slap tower 3.")
     return
 end
