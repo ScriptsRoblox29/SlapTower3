@@ -6,15 +6,7 @@ StarterGui:SetCore("SendNotification", {
     Title = "Not's System",
     Text = "Script loaded",
     Duration = 10,
-    Button1 = "shut the fuck up💔💔🥀🥀🥀",
-    Button2 = "Ok✔️✔️",
-    Callback = function(button)
-        if button == "Button1" then
-            StarterGui:SetCore("SendNotification", {
-                Title = "Not's System",
-                Text = "Oh!",
-                Duration = 3
-            })
+    Button1 = "Ok✔️✔️",
         end
     end
 })
