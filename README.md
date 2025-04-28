@@ -2,7 +2,7 @@ local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
     Title = "Not's Hub",
-    Text = "made by Not and Check our Server for more Scripts: https://discord.gg/zbQhavwkAR",
+    Text = "Our Server: https://discord.gg/zbQhavwkAR",
     Duration = 7
 })
 
