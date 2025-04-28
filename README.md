@@ -1,13 +1,22 @@
 local StarterGui = game:GetService("StarterGui")
 
+if game.PlaceId ~= 13018529297 then
+    StarterGui:SetCore("SendNotification", {
+        Title = "Not's System",
+        Text = "wrong game, blud🥀💔",
+        Duration = 5
+    })
+    return
+end
+
 StarterGui:SetCore("SendNotification", {
-    Title = "Not's Hub",
-    Text = "Our Server: https://discord.gg/zbQhavwkAR",
-    Duration = 7
+    Title = "Not's System",
+    Text = "Our server: https://discord.gg/zbQhavwkAR",
+    Duration = 10
 })
 
 task.spawn(function()
-    while task.wait(0.05) do
+    while task.wait(0) do
         local character = game.Players.LocalPlayer.Character
         local humanoid = character and character:FindFirstChildOfClass("Humanoid")
         if humanoid then
@@ -17,7 +26,7 @@ task.spawn(function()
                     local tool = backpack:FindFirstChild("Default")
                     if tool then
                         humanoid:EquipTool(tool)
-                        task.wait(0.04)
+                        task.wait(0)
                     end
                 end
             end
